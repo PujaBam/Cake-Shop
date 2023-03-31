@@ -1,0 +1,133 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,700&display=swap");
+:root {
+  font-size: 62.5%;
+  --color-primary: #eebd10;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+body {
+  font-size: 18px;
+  overflow-x: hidden;
+  line-height: 1.2;
+  /* font-family: "Barlow", sans-serif; */
+  font-family: "Roboto", sans-serif;
+}
+section {
+  padding: 20px;
+}
+.btn-all {
+  font-size: 18px;
+  padding: 10px 30px;
+  background-color: #eebd10;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  align-items: center;
+}
+li a {
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
+}
+#index .hero {
+  background-image: url("https://img.freepik.com/free-photo/front-view-delicious-cake-concept_23-2148769292.jpg?w=1380&t=st=1680060417~exp=1680061017~hmac=a75e6f752045522dbca22b64dbaeaa1f22cac086746a136dd54672d2b7539fc1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+}
+.card {
+  height: 100%;
+}
+h1 {
+  font-size: 50px;
+  color: #fff;
+}
+h2 {
+  font-size: 40px;
+  color: var(--color-primary);
+}
+hr {
+  border: 2px solid var(--color-primary);
+}
+#index .catagories h3 {
+  font-size: 30px;
+}
+#index .our-services h4 {
+  text-align: center;
+}
+#index i {
+  font-size: 50px;
+  text-align: center;
+}
+#index .our-services h3 {
+  padding: 10px;
+  color: var(--color-primary);
+}
+.order-now {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+.order-now h2 {
+  color: #fff;
+  font-size: 40px;
+  padding: 20px;
+}
+.footer h3 {
+  padding: 20px;
+  text-align: center;
+}
+.footer .icon .social-icons i {
+  color: #fff;
+  font-size: 20px;
+}
+.footer .icon .social-icons {
+  border: 2px solid var(--color-primary);
+  border-radius: 40px;
+  margin: 20px;
+  background-color: var(--color-primary);
+  height: 50px;
+  width: 50px;
+}
+
+.cake-offer {
+  background-color: var(--color-primary);
+  padding: 20px;
+}
+#contact-page .contact {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+#contact-page .featured-cake .card {
+  border: 2px solid var(--color-primary);
+}
+#contact-page .featured-cake .card h4 {
+  text-align: center;
+  padding: 20px;
+}
+#cake-items .kids-bdy h4 {
+  text-align: center;
+  padding: 20px;
+}
+
+#payment-page .payment .btn1 {
+  padding: 3px 40px;
+  border: 2px solid var(--color-primary);
+  background-color: #fff;
+}
+#payment-page .payment .btn2 {
+  padding: 10px 50px;
+  background-color: var(--color-primary);
+  border: none;
+}
+#payment-page .payment .form-floating textarea {
+  padding: 60px;
+}
